@@ -1,0 +1,44 @@
+32,moduleMatching.1.moduleFeat.0.weight,"[64, 32, 1, 1]"
+33,moduleMatching.1.moduleFeat.0.bias,[64]
+34,moduleMatching.1.upConv_M.weight,"[2, 1, 4, 4]"
+35,moduleMatching.1.upCorr_M.weight,"[49, 1, 4, 4]"
+36,moduleMatching.1.conv_M.0.weight,"[128, 49, 3, 3]"
+37,moduleMatching.1.conv_M.0.bias,[128]
+38,moduleMatching.1.conv_M.2.weight,"[64, 128, 3, 3]"
+39,moduleMatching.1.conv_M.2.bias,[64]
+40,moduleMatching.1.conv_M.4.weight,"[32, 64, 3, 3]"
+41,moduleMatching.1.conv_M.4.bias,[32]
+42,moduleMatching.1.conv_M.6.weight,"[2, 32, 7, 7]"
+43,moduleMatching.1.conv_M.6.bias,[2]
+90,moduleSubpixel.1.moduleFeat.0.weight,"[64, 32, 1, 1]"
+91,moduleSubpixel.1.moduleFeat.0.bias,[64]
+92,moduleSubpixel.1.conv_S.0.weight,"[128, 130, 3, 3]"
+93,moduleSubpixel.1.conv_S.0.bias,[128]
+94,moduleSubpixel.1.conv_S.2.weight,"[64, 128, 3, 3]"
+95,moduleSubpixel.1.conv_S.2.bias,[64]
+96,moduleSubpixel.1.conv_S.4.weight,"[32, 64, 3, 3]"
+97,moduleSubpixel.1.conv_S.4.bias,[32]
+98,moduleSubpixel.1.conv_S.6.weight,"[2, 32, 7, 7]"
+99,moduleSubpixel.1.conv_S.6.bias,[2]
+154,moduleRegularization.1.moduleFeat.0.weight,"[128, 32, 1, 1]"
+155,moduleRegularization.1.moduleFeat.0.bias,[128]
+156,moduleRegularization.1.conv_R.0.weight,"[128, 131, 3, 3]"
+157,moduleRegularization.1.conv_R.0.bias,[128]
+158,moduleRegularization.1.conv_R.2.weight,"[128, 128, 3, 3]"
+159,moduleRegularization.1.conv_R.2.bias,[128]
+160,moduleRegularization.1.conv_R.4.weight,"[64, 128, 3, 3]"
+161,moduleRegularization.1.conv_R.4.bias,[64]
+162,moduleRegularization.1.conv_R.6.weight,"[64, 64, 3, 3]"
+163,moduleRegularization.1.conv_R.6.bias,[64]
+164,moduleRegularization.1.conv_R.8.weight,"[32, 64, 3, 3]"
+165,moduleRegularization.1.conv_R.8.bias,[32]
+166,moduleRegularization.1.conv_R.10.weight,"[32, 32, 3, 3]"
+167,moduleRegularization.1.conv_R.10.bias,[32]
+168,moduleRegularization.1.conv_dist_R.0.weight,"[49, 32, 7, 1]"
+169,moduleRegularization.1.conv_dist_R.0.bias,[49]
+170,moduleRegularization.1.conv_dist_R.1.weight,"[49, 49, 1, 7]"
+171,moduleRegularization.1.conv_dist_R.1.bias,[49]
+172,moduleRegularization.1.moduleScaleX.weight,"[1, 49, 1, 1]"
+173,moduleRegularization.1.moduleScaleX.bias,[1]
+174,moduleRegularization.1.moduleScaleY.weight,"[1, 49, 1, 1]"
+175,moduleRegularization.1.moduleScaleY.bias,[1]
